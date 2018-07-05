@@ -4,8 +4,8 @@ A basic script for fetching top stories from [**Hacker News API**][1] and output
 
 setup
 -----
-```go install -v github.com/erning/gorun```  
-```go install github.com/MartinsIrbe/ycombinator-bitbar```  
+```go get -u github.com/martinsirbe/ycombinator-bitbar```  
+```go install github.com/martinsirbe/ycombinator-bitbar```  
 Move the `hacker-news.1m.sh` script to your BitBar plugins directory.  
 Update `GOPATH` in the `hacker-news.1m.sh`.
 
@@ -15,6 +15,8 @@ dependencies
 * [**BitBar**][2]
 * [**gorun**][3]
 
+## License
+See the [LICENSE](LICENSE.md) file for license rights and limitations (MIT).
 
 [1]: https://github.com/HackerNews/API
 [2]: https://getbitbar.com/
